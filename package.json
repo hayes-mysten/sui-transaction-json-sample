@@ -1,0 +1,23 @@
+{
+  "name": "transaction-json-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sample": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/bcs": "^1.0.0",
+    "@mysten/sui": "^1.0.3",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
