@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "sender": "0x79b047cd8292df71895a61f40f6630ac0cc2637dfa22d6eefad484bfedf11150",
+  "expiration": null,
+  "gasData": {
+    "budget": null,
+    "price": null,
+    "owner": null,
+    "payment": null
+  },
+  "inputs": [
+    {
+      "Pure": {
+        "bytes": "ebBHzYKS33GJWmH0D2YwrAzCY336Itbu+tSEv+3xEVA="
+      }
+    },
+    {
+      "Pure": {
+        "bytes": "ZAAAAAAAAAA="
+      }
+    }
+  ],
+  "commands": [
+    {
+      "SplitCoins": {
+        "coin": {
+          "GasCoin": true
+        },
+        "amounts": [
+          {
+            "Input": 1
+          }
+        ]
+      }
+    },
+    {
+      "TransferObjects": {
+        "objects": [
+          {
+            "NestedResult": [
+              0,
+              0
+            ]
+          }
+        ],
+        "address": {
+          "Input": 0
+        }
+      }
+    }
+  ]
+}
